@@ -2,7 +2,7 @@
 
 import { Disclosure } from "@headlessui/react";
 import { X, Menu } from "lucide-react";
-import ConnectButton from "@/components/layout/connect-button";
+import ConnectWallet from "@/components/layout/connect";
 import { navigation } from '@/lib/constants/misc';
 import { cn } from "@/lib/utils";
 
@@ -50,7 +50,7 @@ const Header = ({ children }: { children: React.ReactNode }) => {
 									</div>
 								</div>
 								<div className="hidden sm:ml-6 sm:flex sm:items-center">
-									<ConnectButton />
+									<ConnectWallet />
 								</div>
 								<div className="-mr-2 flex items-center sm:hidden">
 									{/* Mobile menu button */}
@@ -93,7 +93,7 @@ const Header = ({ children }: { children: React.ReactNode }) => {
 								))}
 							</div>
 							<div className="border-t border-gray-200 pb-3 pt-4">
-								<ConnectButton />
+								<ConnectWallet />
 							</div>
 						</Disclosure.Panel>
 					</>
