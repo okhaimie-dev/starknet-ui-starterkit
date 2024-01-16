@@ -12,7 +12,7 @@ import {
 } from "@starknet-react/core";
 
 export function StarknetProvider({ children }: { children: ReactNode }) {
-	// const providers = [publicProvider()];
+	
 	const connectors = [
 		new InjectedConnector({ options: { id: "braavos", name: "Braavos" } }),
 		new InjectedConnector({ options: { id: "argentX", name: "Argent X" } }),
