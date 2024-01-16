@@ -23,6 +23,7 @@
     "react": "^18",
     "react-dom": "^18",
     "starknet": "^5.24.3",
+    "starknetkit": "^1.0.29",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7"
   },
